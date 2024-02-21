@@ -6,4 +6,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="FastEndpoints" Version="5.22.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Endpoints\SayGoodbye\" />
+  </ItemGroup>
+
 </Project>
