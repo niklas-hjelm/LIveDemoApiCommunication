@@ -2,7 +2,7 @@
 
 namespace LIveDemoApiCommunication.ApiOne.Endpoints.SayHello;
 
-public class SayHelloHandler(IHttpClientFactory factory) : Endpoint<EmptyRequest, SayHelloResponse>
+public class SayHelloHandler : Endpoint<EmptyRequest, SayHelloResponse>
 {
     public override void Configure()
     {

@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34601.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LIveDemoApiCommunication.ApiOne", "LIveDemoApiCommunication.ApiOne\LIveDemoApiCommunication.ApiOne.csproj", "{984119B3-1073-40C2-823B-CEFF509DA7B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LIveDemoApiCommunication.ApiOne", "LIveDemoApiCommunication.ApiOne\LIveDemoApiCommunication.ApiOne.csproj", "{984119B3-1073-40C2-823B-CEFF509DA7B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LIveDemoApiCommunication.ApiTwo", "LIveDemoApiCommunication.ApiTwo\LIveDemoApiCommunication.ApiTwo.csproj", "{AFAC276B-472E-4C0B-842D-2D347B77FC83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LIveDemoApiCommunication.ApiTwo", "LIveDemoApiCommunication.ApiTwo\LIveDemoApiCommunication.ApiTwo.csproj", "{AFAC276B-472E-4C0B-842D-2D347B77FC83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LIveDemoApiCommunication.Animals.API", "LIveDemoApiCommunication.Animals.API\LIveDemoApiCommunication.Animals.API.csproj", "{1D180179-5763-452A-ABAA-D5A4F64861E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LIveDemoApiCommunication.DataAccess", "LIveDemoApiCommunication.DataAccess\LIveDemoApiCommunication.DataAccess.csproj", "{7599E820-1B88-4F0E-8CE7-395412E4DBB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{AFAC276B-472E-4C0B-842D-2D347B77FC83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFAC276B-472E-4C0B-842D-2D347B77FC83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFAC276B-472E-4C0B-842D-2D347B77FC83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D180179-5763-452A-ABAA-D5A4F64861E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D180179-5763-452A-ABAA-D5A4F64861E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D180179-5763-452A-ABAA-D5A4F64861E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D180179-5763-452A-ABAA-D5A4F64861E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7599E820-1B88-4F0E-8CE7-395412E4DBB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7599E820-1B88-4F0E-8CE7-395412E4DBB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7599E820-1B88-4F0E-8CE7-395412E4DBB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7599E820-1B88-4F0E-8CE7-395412E4DBB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

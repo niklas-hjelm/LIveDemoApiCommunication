@@ -7,15 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Enpoints\RemoveAnimal\" />
+    <Folder Include="Enpoints\UpdateAnimal\" />
+    <Folder Include="Enpoints\ReplaceAnimal\" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="FastEndpoints" Version="5.22.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Endpoints\SayGoodbye\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\LIveDemoApiCommunication.DataAccess\LIveDemoApiCommunication.DataAccess.csproj" />
   </ItemGroup>
 
 </Project>
